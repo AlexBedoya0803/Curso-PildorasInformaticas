@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="estilos.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Primeros cambios</h1>
-    <p>Parrafo agregado<p>
+    <div class="cont_form">
+        <form action="" class="form">
+            <input type="text" name="name" id="name" placeholder="Tarea">
+            <input type="text" name="category" id="category" placeholder="Category">
+            <input type="number" name="pomos" id="pomos" placeholder="Pomodoros">
+            <button id="button" class="button_agregar">
+                Agregar
+            </button>
+        </form>        
+    </div>
+    <div class="cont_app">
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="crud.js"></script>
 </body>
 </html>
